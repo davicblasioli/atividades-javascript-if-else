@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    
+    var pais = prompt('Digite seu pais (eua ou brasil)')
+    var num = parseInt(prompt('Insira sua idade: '))
+    if(pais === 'brasil'){
+        if(num >= 18){
+            alert('Você é de maior')
+        } else{
+            alert('Você não é de maior')
+        }
+    }
+    else if(pais  === 'eua'){
+        if(num >= 21){
+            alert('Você é de maior')
+        }
+        else{
+            alert('Você não é de maior')
+        }
+    }
+    else{
+        prompt('Insira um país válido')
+    }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
